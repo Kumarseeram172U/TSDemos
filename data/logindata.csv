@@ -1,0 +1,5 @@
+testName,username,password,expected
+valid login,rahulshettyacademy,Learning@830$3mK2,success
+invalid password,kumar,wrongPass,failure
+invalid username,unknownUser,kumar@123,failure
+empty credentials,,,"failure"

@@ -1,0 +1,26 @@
+[
+  {
+    "testName": "valid login",
+    "username": "rahulshettyacademy",
+    "password": "Learning@830$3mK2",
+    "expected": "success"
+  },
+  {
+    "testName": "invalid password",
+    "username": "rahulshettyacademy",
+    "password": "wrongPass",
+    "expected": "failure"
+  },
+  {
+    "testName": "invalid username",
+    "username": "unknownUser",
+    "password": "Learning@830$3mK2",
+    "expected": "failure"
+  },
+  {
+    "testName": "empty credentials",
+    "username": "",
+    "password": "",
+    "expected": "failure"
+  }
+]
